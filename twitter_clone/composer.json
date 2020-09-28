@@ -1,0 +1,19 @@
+{
+    "name": "vendor/renilson",
+    "require": {
+        "php": "^7.4"
+    },
+    "authors": [
+        {
+            "name": "Renilson Luna",
+            "email": "renilsonjunior1@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "MF\\": "vendor/MF"
+        }
+    }
+}
